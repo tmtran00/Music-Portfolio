@@ -1,0 +1,60 @@
+/*
+
+  Tuan Tran
+  4/8/20
+  AM, Theresa Tran
+
+This is CSS file for both the about.html as well as index.html.
+It gives both website a consistent aesthetic theme.
+*/
+
+/*
+  Note: This body ruleset is to get you started
+*/
+
+body {
+  background-color: #ffcdac;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+header, .credit, h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1, h2, h3, #navigation li, #gen, #loading {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+nav {
+  position: sticky;
+  background-color: #d6a592;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation li {
+  padding: 5% 2%;
+  display: inline;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote footer {
+  text-decoration: underline;
+}
+
+.credit {
+  font-size: 80%;
+}
+
+.appear {
+  display: block;
+}

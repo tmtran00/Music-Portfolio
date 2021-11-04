@@ -1,0 +1,12 @@
+---
+:id: 38046601
+:submitters:
+- :name: Tuan Minh Tran
+  :email: tmtran00@uw.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2020-05-21 01:26:02.488703000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2020-05-20 18:26:02.488703000 Z
+:status: processed
+:score: 6.0

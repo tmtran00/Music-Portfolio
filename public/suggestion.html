@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+  Tuan Tran
+  4/7/20
+  AM, Theresa Tran
+
+  This is the suggestion.html file. create a suggestion form for client suggested songs.
+  -->
+
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="song_styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <script src="cp4.js"></script>
+    <title>Song suggestions</title>
+  </head>
+  <body>
+    <header>
+      <h1>Suggest a song!</h1>
+      <h2>Got a song you really like? Let me know!</h2>
+    </header>
+    <nav id="navigation">
+      <ul>
+        <li>
+          <a href="about.html">Home</a>
+        </li>
+        <li>
+          <a href="index.html">My Playlist</a>
+        </li>
+        <li>
+          <a href="suggestion.html">Suggest a Song!</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="song-suggests">
+        <div id="fill">
+          <h3>Fill in your song here</h3>
+            <div>
+            <form id="submit-form">
+              <div>
+                <label for="title">Song Title:</label>
+                <input type="text" name="title" id="title" maxlength="50">
+              </div>
+              <div>
+                <label for="artist">Artist(s):</label>
+                <input type="text" name="artist" id="artist" maxlength="50">
+              </div>
+              <div>
+                <label for="url">Youtube url:</label>
+                <input type="text" id="url" name="url">
+              </div>
+              <div>
+                <button id="submit">Suggest!</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="history">
+          <h3>Recommended</h3>
+          <div id="song-list">
+            <ul>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="credit">
+      <p>
+        All images comes from Wikipedia. API used can be found <a href="https://www.last.fm/api/" target="_blank">here</a>
+      </p>
+    </footer>
+  </body>
+</html>
