@@ -6,6 +6,8 @@ On this website, I displayed various songs that I enjoyed listening to. Users ca
 
 <img src="/pic/front page.PNG" width= 1000px, height = auto>
 
+<img src="/pic/Slide.PNG" width= 1000px, height = auto>
+
 
 At the bottom, I placed an API call onto last.fm radio station, I then received the top 5 most popular songs from a certain artist and and create a list to display them.
 Each item on the list is a link to a search query on YouTube so that users can continue exploring.
